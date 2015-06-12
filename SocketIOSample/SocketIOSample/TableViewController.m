@@ -56,7 +56,7 @@
 - (void)applicationDidBecomeActive
 {
     // localhost:3000に接続開始
-    [self.socketIO connectToHost:@"localhost" onPort:3000];
+    [self.socketIO connectToHost:@"210.140.162.153" onPort:3000];
 }
 
 - (void)applicationWillResignActive

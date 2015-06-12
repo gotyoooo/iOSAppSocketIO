@@ -44,14 +44,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C25B4F1A16B1104400884561 /* SocketIOSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocketIOSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25B4F1A16B1104400884561 /* SocketIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocketIO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C25B4F1E16B1104400884561 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C25B4F2016B1104400884561 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C25B4F2216B1104400884561 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C25B4F2616B1104400884561 /* SocketIOSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SocketIOSample-Info.plist"; sourceTree = "<group>"; };
+		C25B4F2616B1104400884561 /* SocketIO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SocketIO-Info.plist"; sourceTree = "<group>"; };
 		C25B4F2816B1104400884561 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C25B4F2A16B1104400884561 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C25B4F2C16B1104400884561 /* SocketIOSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SocketIOSample-Prefix.pch"; sourceTree = "<group>"; };
+		C25B4F2C16B1104400884561 /* SocketIO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SocketIO-Prefix.pch"; sourceTree = "<group>"; };
 		C25B4F2D16B1104400884561 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C25B4F2E16B1104400884561 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C25B4F3016B1104400884561 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -138,7 +138,7 @@
 		C25B4F1B16B1104400884561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C25B4F1A16B1104400884561 /* SocketIOSample.app */,
+				C25B4F1A16B1104400884561 /* SocketIO.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -172,10 +172,10 @@
 		C25B4F2516B1104400884561 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C25B4F2616B1104400884561 /* SocketIOSample-Info.plist */,
+				C25B4F2616B1104400884561 /* SocketIO-Info.plist */,
 				C25B4F2716B1104400884561 /* InfoPlist.strings */,
 				C25B4F2A16B1104400884561 /* main.m */,
-				C25B4F2C16B1104400884561 /* SocketIOSample-Prefix.pch */,
+				C25B4F2C16B1104400884561 /* SocketIO-Prefix.pch */,
 				C25B4F3016B1104400884561 /* Default.png */,
 				C25B4F3216B1104400884561 /* Default@2x.png */,
 				C25B4F3416B1104400884561 /* Default-568h@2x.png */,
@@ -260,9 +260,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C25B4F1916B1104400884561 /* SocketIOSample */ = {
+		C25B4F1916B1104400884561 /* SocketIO */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C25B4F3E16B1104500884561 /* Build configuration list for PBXNativeTarget "SocketIOSample" */;
+			buildConfigurationList = C25B4F3E16B1104500884561 /* Build configuration list for PBXNativeTarget "SocketIO" */;
 			buildPhases = (
 				C25B4F1616B1104400884561 /* Sources */,
 				C25B4F1716B1104400884561 /* Frameworks */,
@@ -272,9 +272,9 @@
 			);
 			dependencies = (
 			);
-			name = SocketIOSample;
+			name = SocketIO;
 			productName = SocketIOSample;
-			productReference = C25B4F1A16B1104400884561 /* SocketIOSample.app */;
+			productReference = C25B4F1A16B1104400884561 /* SocketIO.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -286,7 +286,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = hirai.yuki;
 			};
-			buildConfigurationList = C25B4F1416B1104400884561 /* Build configuration list for PBXProject "SocketIOSample" */;
+			buildConfigurationList = C25B4F1416B1104400884561 /* Build configuration list for PBXProject "SocketIO" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -298,7 +298,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C25B4F1916B1104400884561 /* SocketIOSample */,
+				C25B4F1916B1104400884561 /* SocketIO */,
 			);
 		};
 /* End PBXProject section */
@@ -424,10 +424,13 @@
 		C25B4F3F16B1104500884561 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ken Gotoh (77FM644657)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SocketIOSample/SocketIOSample-Prefix.pch";
-				INFOPLIST_FILE = "SocketIOSample/SocketIOSample-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "SocketIOSample/SocketIO-Prefix.pch";
+				INFOPLIST_FILE = "SocketIOSample/SocketIO-Info.plist";
+				PRODUCT_NAME = SocketIO;
+				PROVISIONING_PROFILE = "6ac414dc-1223-45eb-9ce6-737b3161dbdc";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -435,10 +438,13 @@
 		C25B4F4016B1104500884561 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ken Gotoh (77FM644657)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SocketIOSample/SocketIOSample-Prefix.pch";
-				INFOPLIST_FILE = "SocketIOSample/SocketIOSample-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "SocketIOSample/SocketIO-Prefix.pch";
+				INFOPLIST_FILE = "SocketIOSample/SocketIO-Info.plist";
+				PRODUCT_NAME = SocketIO;
+				PROVISIONING_PROFILE = "6ac414dc-1223-45eb-9ce6-737b3161dbdc";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -446,7 +452,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C25B4F1416B1104400884561 /* Build configuration list for PBXProject "SocketIOSample" */ = {
+		C25B4F1416B1104400884561 /* Build configuration list for PBXProject "SocketIO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C25B4F3C16B1104500884561 /* Debug */,
@@ -455,13 +461,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C25B4F3E16B1104500884561 /* Build configuration list for PBXNativeTarget "SocketIOSample" */ = {
+		C25B4F3E16B1104500884561 /* Build configuration list for PBXNativeTarget "SocketIO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C25B4F3F16B1104500884561 /* Debug */,
 				C25B4F4016B1104500884561 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
